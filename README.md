@@ -1,15 +1,22 @@
 # Parkour Pixel - Local File Format Converter
 
-A privacy-focused Chrome extension for client-side file format conversions using WebAssembly and FFmpeg.
+A privacy-focused Chrome extension for client-side image format conversions
 
 ## Features
 
 - 🔒 100% Client-side processing - no file uploads
-- 🎯 Convert between popular image formats (WEBP, JPG, PNG, HEIC)
-- 🎬 Convert between video formats (MP4, MOV, AVI, WEBM)
-- ⚡ High-performance using WebAssembly and FFmpeg
+- 🎯 Convert between common image formats (WEBP, JPG, PNG, GIF)
+- ⚡ High-performance using WebAssembly
 - 🔌 Works offline
 - 🎨 Simple drag-and-drop interface
+
+## Upcoming Features
+
+- 🎬 Video format conversions (MP4, MOV, AVI, WEBM)
+- 📱 HEIC image support
+- ⭐ Premium features with advanced options
+- 🎛️ Advanced quality controls
+- 📦 Batch processing improvements
 
 ## Development Setup
 
