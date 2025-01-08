@@ -2,6 +2,8 @@
 
 A privacy-focused Chrome extension for client-side image format conversions
 
+[![Available in the Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png)](https://chromewebstore.google.com/detail/pixel-parkour/blpagjodddakdmenplgngncfojccficp)
+
 ## Features
 
 - 🔒 100% Client-side processing - no file uploads
@@ -22,7 +24,7 @@ A privacy-focused Chrome extension for client-side image format conversions
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pixelparkour.git
+git clone https://github.com/jsteve1/pixelswapper.git
 cd pixelparkour
 ```
 
