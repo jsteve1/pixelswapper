@@ -1,36 +1,27 @@
-# Privacy Policy for Pixel Parkour
-
-## Introduction
-Pixel Parkour is committed to protecting your privacy. This privacy policy explains how our Chrome extension handles your data.
+# Privacy Policy for PixelSwapper
 
 ## Data Collection
-**We do not collect any data.** Period. Here's what you need to know:
+PixelSwapper does not collect, store, or transmit any personal data or user information. All image and video processing is performed locally in your browser.
 
-- ✅ All file processing happens locally in your browser
-- ✅ No files are ever uploaded to any servers
-- ✅ No personal information is collected
-- ✅ No usage analytics are tracked
-- ✅ No cookies are used
+## Image Processing
+- All file conversions are performed entirely on your device
+- No files are uploaded to any servers
+- No data is stored after the extension is closed
+- No cookies or local storage are used
 
-## File Access
-- The extension only accesses files that you explicitly choose to convert
-- Files are processed entirely within your browser's memory
-- Files are never stored permanently by the extension
-- Processed files are only saved where you choose to save them
-
-## Chrome Permissions
-Our extension requires minimal permissions:
-- `storage`: Used only for saving your conversion preferences locally
-- File access: Only for files you explicitly select through the extension interface
+## Permissions
+The extension requires the following permissions:
+- `storage`: Used only for saving user preferences (like dark mode setting)
 
 ## Third-Party Services
-We do not integrate with or send data to any third-party services.
+This extension does not use any third-party services, analytics, or tracking tools.
 
-## Updates to Privacy Policy
-If we make any changes to this privacy policy, we will update the version in the Chrome Web Store and notify users accordingly.
+## Updates
+This privacy policy may be updated from time to time. Any changes will be reflected in this document and the version number will be updated accordingly.
 
 ## Contact
-For any privacy-related questions, please file an issue on our GitHub repository.
+If you have any questions about this privacy policy, please contact:
+- Email: jakestevens082@googlemail.com
+- GitHub: https://github.com/jsteve1
 
-## Effective Date
-This privacy policy is effective as of January 2024. 
+Last updated: February 2024 
