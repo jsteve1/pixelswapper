@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="440" height="280" viewBox="0 0 440 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="440" height="280" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="380" cy="40" r="120" fill="white" fill-opacity="0.05"/>
+  <circle cx="60" cy="240" r="100" fill="white" fill-opacity="0.05"/>
+  
+  <!-- App Icon -->
+  <g transform="translate(40, 90) scale(0.8)">
+    <rect x="16" y="16" width="96" height="96" rx="20" fill="white"/>
+    <path d="M40 64 L56 80 L88 48" stroke="url(#bgGrad)" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M64 40 L80 56 L64 72 L48 56 Z" fill="url(#bgGrad)" fill-opacity="0.3"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="160" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#textGrad)">PixelSwapper</text>
+  <text x="160" y="180" font-family="Arial, sans-serif" font-size="24" fill="white" fill-opacity="0.9">Swap colors with ease</text>
+</svg> 

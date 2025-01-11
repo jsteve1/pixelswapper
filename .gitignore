@@ -37,3 +37,5 @@ coverage/
 # Cache
 .cache/
 .temp/ 
+
+DEVELOPMENT_CHECKLIST.md

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="560" viewBox="0 0 1400 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.9" />
+    </linearGradient>
+    <!-- Pattern for background -->
+    <pattern id="gridPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="none" stroke="white" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="1400" height="560" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1400" height="560" fill="url(#gridPattern)"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="1200" cy="100" r="300" fill="white" fill-opacity="0.05"/>
+  <circle cx="200" cy="460" r="200" fill="white" fill-opacity="0.05"/>
+  
+  <!-- Large App Icon -->
+  <g transform="translate(100, 160) scale(1.2)">
+    <rect x="16" y="16" width="96" height="96" rx="20" fill="white"/>
+    <path d="M40 64 L56 80 L88 48" stroke="url(#bgGrad)" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M64 40 L80 56 L64 72 L48 56 Z" fill="url(#bgGrad)" fill-opacity="0.3"/>
+  </g>
+  
+  <!-- Text Content -->
+  <text x="300" y="220" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#textGrad)">PixelSwapper</text>
+  <text x="300" y="280" font-family="Arial, sans-serif" font-size="32" fill="white" fill-opacity="0.9">Transform your images with intelligent color swapping</text>
+  
+  <!-- Feature Points -->
+  <g transform="translate(300, 340)" fill="white">
+    <circle cx="10" cy="0" r="4"/>
+    <text x="30" y="8" font-family="Arial, sans-serif" font-size="24">Smart color detection</text>
+    
+    <circle cx="10" cy="40" r="4"/>
+    <text x="30" y="48" font-family="Arial, sans-serif" font-size="24">Instant previews</text>
+    
+    <circle cx="10" cy="80" r="4"/>
+    <text x="30" y="88" font-family="Arial, sans-serif" font-size="24">Easy to use interface</text>
+  </g>
+</svg> 
